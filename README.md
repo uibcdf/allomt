@@ -1,1 +1,1 @@
-# allosterymt
+# AllosteryMT
