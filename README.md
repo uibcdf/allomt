@@ -1,1 +1,2 @@
-# AllosteryMT
+# AlloMT
+Allostery MultiToolkit
