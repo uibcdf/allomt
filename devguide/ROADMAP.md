@@ -1,5 +1,10 @@
 # Initial roadmap
 
+These are planning notes. The current phase is researcher-needs elicitation;
+the full scientific scope, architecture and feature priorities are being
+negotiated. Need ordering is not a delivery order, and no scientific-method
+timeline has been agreed.
+
 ## W0: component foundation
 
 Owner: [AlloMT #1](https://github.com/uibcdf/allomt/issues/1).
@@ -14,7 +19,16 @@ repository checks. Record hosted compatibility, branch protection, developer
 workspace receiving and coverage applicability with their actual evidence.
 The source foundation alone has no scientific or public-release qualification.
 
-## W1: first scientific contract
+## W1: researcher needs and negotiated design
+
+Current owner: [AlloMT #3](https://github.com/uibcdf/allomt/issues/3).
+
+Maintain [the needs](RESEARCHER_NEEDS.md), [discussion history](DESIGN_DISCUSSION.md),
+[questions](DESIGN_QUESTIONS.md) and [provisional architecture](ARCHITECTURE.md)
+over the planned discussion rounds. Faithfully capture the broad scientific
+vision, clarify concrete contexts and distinguish proposals from agreements.
+
+### Later first scientific contract
 
 Owner: [AlloMT #2](https://github.com/uibcdf/allomt/issues/2).
 
@@ -22,7 +36,8 @@ Select one concrete allostery question, a representative input, an appropriate
 method and the smallest useful output. Specify interpretation, assumptions,
 uncertainty, provenance, units and correspondence through the actual workflow.
 Inspect reusable provider APIs and link missing capabilities to their owners.
-No first method or generalized plugin/result architecture is selected yet.
+No first method, public API, source-module layout or generalized plugin/result
+architecture is selected yet. Selection follows the needs discussion.
 
 ## W2: first reproducible scientific increment
 

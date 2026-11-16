@@ -7,6 +7,11 @@ The current source provides the repository foundation and an importable Python
 package. The first scientific workflow is being defined in
 [AlloMT #2](https://github.com/uibcdf/allomt/issues/2).
 
+We are currently eliciting researcher needs over several design-discussion
+rounds. [The developer guide](devguide/README.md) maintains the thirteen stated
+needs, discussion history, open questions and provisional architecture under
+[AlloMT #3](https://github.com/uibcdf/allomt/issues/3).
+
 Central admission is requested in
 [MolSysSuite #202](https://github.com/uibcdf/molsyssuite/issues/202).
 The source candidate follows the official starter sources and `policy-v1.5.12`;

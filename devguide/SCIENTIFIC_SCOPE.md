@@ -1,79 +1,82 @@
 # Scientific scope
 
-AlloMT (Allostery MultiToolkit) is being developed to predict and characterize
-allosteric mechanisms within MolSysSuite, the molecular modeling ecosystem of
-MolI. Its scientific scope is broader than any single method or backend.
+**Status:** researcher-needs elicitation. The intended product scope is being
+negotiated over multiple rounds; architecture, methods, priorities and delivery
+commitments remain open. The source currently provides repository infrastructure.
 
-## Intended scientific boundary
+## Researcher vision
 
-AlloMT will connect explicit molecular inputs, states and perturbations to
-testable descriptions of allosteric responses. Candidate tasks include comparing
-states or ensembles, characterizing coupling between molecular regions, studying
-responses to perturbations, and assembling method-specific support for proposed
-communication mechanisms. Each task needs its own question, method, applicability
-and validation before it becomes an implemented capability.
+AlloMT (Allostery MultiToolkit) is intended to support prediction,
+characterization and engineering of allosteric modulation within MolSysSuite
+and MolI. The researcher's requested outcomes span target knowledge, candidate
+sites and functional effects, mechanistic interpretation, computational
+experiments, ligand/peptide design, molecular association and mutation effects.
 
-The first workflow and numerical method are still to be selected in
-[AlloMT #2](https://github.com/uibcdf/allomt/issues/2). This scaffold provides no
-predictor, allosteric score, pathway algorithm, trained model or scientific API.
+The complete researcher-stated inventory is [N01–N13](RESEARCHER_NEEDS.md).
+It includes individual protein targets, complexes/multimers and associations
+involving DNA/RNA, as well as conformation-specific questions. The inventory
+preserves the requested scope without selecting an implementation for it.
 
-## Interpretation and evidence
+| Requested area | Needs |
+| --- | --- |
+| Site discovery, modulation direction and reported ligands | N01, N03, N04 |
+| Mechanisms, communication paths and orthosteric function/structure | N02, N08 |
+| MD experiment proposals, information-theory analysis and ML/AI | N05, N06 |
+| Permissive third-party integration and stronger native algorithms | N07 |
+| Bifunctional ortho-allo and conformation-selective molecular design | N09, N10 |
+| Coordinated pharmacophore, binding and peptide workflows | N11 |
+| Allosteric control of molecular association and mutation effects | N12, N13 |
 
-Keep a computed observation separate from its mechanistic interpretation. A
-correlation, elastic mode, contact network, visual pattern or method-specific
-score must retain its actual meaning and limitations. Do not present one as
-experimental confirmation, a causal mechanism or a physical free energy without
-the corresponding method and evidence.
+The desired early use of third-party methods and future stronger native
+algorithms are both part of the researcher's vision. Specific providers,
+benchmarks, performance criteria, native-method transitions and timing have
+not been chosen. Requesting a capability does not establish its validation.
 
-For every implemented workflow, state the biological question, analyzed states,
-input preparation, assumptions, reference/comparison, supported systems and
-unresolved uncertainty. Numerical correctness, installed-engine execution and
-biological validation are separate qualification claims. Negative, missing,
-unsupported and failed outcomes must remain distinguishable.
+## Negotiation and current design status
 
-## Reusable component ownership
+[The discussion history](DESIGN_DISCUSSION.md) records researcher statements,
+assistant interpretations, proposals and confirmed agreements by round.
+[Open questions](DESIGN_QUESTIONS.md) organize unresolved scientific and product
+details. [Architecture notes](ARCHITECTURE.md) explore implications while
+remaining explicitly provisional.
 
-Use public provider operations for capabilities already owned elsewhere:
+The current confirmed process is needs elicitation, several discussion rounds
+and maintained documents that improve with the discussion. A first bounded
+scientific workflow is still to be selected under
+[AlloMT #2](https://github.com/uibcdf/allomt/issues/2). The broader negotiation
+is tracked in [AlloMT #3](https://github.com/uibcdf/allomt/issues/3).
 
-- MolSysMT: molecular representation, acquisition, selections, atom/group maps,
-  chemical states, structural operations and trajectory access.
-- ElastNetMT: elastic-network construction and its numerical methods, when a
-  selected workflow requires them.
-- TopoMT, BindingMT and PharmacophoreMT: their specialized topography, binding
-  and pharmacophore calculations when applicable.
-- MolSysViewer and, when applicable, MolSysSketcher: presentation and interaction
-  through their supported interfaces.
+## Applicable scientific and ecosystem obligations
 
-AlloMT owns the allostery-specific operations, comparisons, interpretation and
-result contracts that compose those tools. Inspect available public APIs before
-adding a primitive; report an actual missing provider capability in its owning
-repository with linked AlloMT evidence.
+These inherited obligations remain applicable as the product design evolves:
 
-See [the ecosystem map](ECOSYSTEM.md) for membership and integration distinctions.
+- Preserve the distinction between a computed observation, its mechanistic
+  interpretation and the evidence supporting a scientific claim. Retain
+  assumptions, applicability, uncertainty, missing and unsupported outcomes.
+- Reuse public provider operations for capabilities owned elsewhere. MolSysMT
+  owns shared molecular representation/operations; ElastNetMT owns its
+  elastic-network numerical work. Specialized topography, pharmacophore,
+  binding, peptide, knowledge and visualization work retains its owning
+  component. See [the ecosystem map](ECOSYSTEM.md).
+- Preserve molecular identity, selections and resolved ordering, atom/group
+  correspondence, chemical states and analyzed structures/frames where relevant.
+  Indices and identifiers are distinct.
+- Make physical quantities and conversions explicit through the shared
+  PyUnitWizard policy; retain each method's actual units or dimensionless meaning.
+- Identify method/backend/version, parameters, input preparation, provenance
+  and execution status. Keep scientific results, SMonitor diagnostics,
+  Ackredit references and optional Recorda execution records distinct.
+- Introduce independently useful operations through concrete scientific
+  contracts and meaningful checks when their workflows have been selected.
 
-## Result design constraints
-
-Apply these to the first concrete workflow; they do not prescribe a generic
-result framework before one is needed:
-
-- Preserve molecular identity, selection expression and resolved ordering,
-  atom/group correspondence, chemical-state identity and analyzed structure or
-  trajectory-frame association wherever relevant. Indices and identifiers are
-  distinct; do not silently remap a provider's output.
-- Make quantities and conversions explicit through the shared PyUnitWizard
-  policy. Preserve the actual units or dimensionless meaning of each method.
-- Identify the method, backend, version, parameters, input provenance, preparation
-  and execution status. Retain supplied uncertainty and explain absent estimates.
-- Keep scientific data/results, SMonitor diagnostics, Ackredit references and
-  optional Recorda execution records distinct. Reading a saved result must not
-  imply a new calculation or new scientific evidence.
-- Define the smallest reusable public operation needed by the accepted workflow,
-  with meaningful numerical/scientific checks and a reproducible example.
+These obligations do not choose a universal allostery score, path model, result
+class, method family or workflow architecture.
 
 ## Current implementation boundary
 
-The initial milestone is repository and engineering infrastructure under
-[AlloMT #1](https://github.com/uibcdf/allomt/issues/1). Scientific algorithms,
-runtime provider dependencies and result schemas will be introduced only as
-required by the selected workflow. No public package, biological benchmark,
-frontend integration or platform-support result follows from this scaffold.
+Repository/source receiving remains under
+[AlloMT #1](https://github.com/uibcdf/allomt/issues/1).
+No scientific predictor, communication-path algorithm, ML model, MD execution
+route or molecular-design operation is implemented by this documentation.
+Scientific dependencies, result contracts and operations will follow the
+negotiated scientific increments.

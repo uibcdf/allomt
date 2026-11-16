@@ -17,3 +17,14 @@ report states. After a report lifecycle change, run
 
 Follow [the canonical instruction policy](../MOLSYSSUITE_GUIDE.md#durable-working-instructions)
 for accepted lasting actions and feedback beyond this component.
+
+## Iterative design records
+
+During the design discussion, maintain `RESEARCHER_NEEDS.md`,
+`DESIGN_DISCUSSION.md`, `DESIGN_QUESTIONS.md` and `ARCHITECTURE.md` as the
+relevant rounds progress. Keep the scope and reading path consistent with them.
+Distinguish researcher-stated needs, assistant interpretations, proposals,
+confirmed agreements and open questions. Record significant revisions and their
+reasons with stable need/question identities. Mark a design choice as agreed
+only when the discussion establishes that agreement. These records support
+several rounds of needs elicitation before implementation choices are settled.

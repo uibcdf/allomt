@@ -14,6 +14,11 @@ supersedes: []
 
 # First scientific workflow
 
+The broader researcher-needs and design discussion is maintained under
+uibcdf/allomt#3 in [the need inventory](../RESEARCHER_NEEDS.md) and
+[discussion history](../DESIGN_DISCUSSION.md). This issue selects a later first
+bounded increment; it does not define or limit the complete product scope.
+
 ## What
 
 Select one concrete biological question, representative input, method and useful
