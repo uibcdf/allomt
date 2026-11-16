@@ -21,10 +21,19 @@ for accepted lasting actions and feedback beyond this component.
 ## Iterative design records
 
 During the design discussion, maintain `RESEARCHER_NEEDS.md`,
-`DESIGN_DISCUSSION.md`, `DESIGN_QUESTIONS.md` and `ARCHITECTURE.md` as the
+`OBJECTIVES.md`, `COMPONENT_RESPONSIBILITIES.md`, `DESIGN_DISCUSSION.md`,
+`DESIGN_QUESTIONS.md` and `ARCHITECTURE.md` as the
 relevant rounds progress. Keep the scope and reading path consistent with them.
 Distinguish researcher-stated needs, assistant interpretations, proposals,
 confirmed agreements and open questions. Record significant revisions and their
 reasons with stable need/question identities. Mark a design choice as agreed
 only when the discussion establishes that agreement. These records support
-several rounds of needs elicitation before implementation choices are settled.
+several rounds of broad needs exploration before implementation choices are settled.
+Do not turn a first example, functional interpretation or conceptual scheme into
+an artificial limit on AlloMT's scientific scope. Keep accepted objectives distinct
+from provider ownership, backend adoption and actual implementation evidence.
+
+Before working in Discussions, read `discussions.md`. Keep substantive resource
+reviews in their authoritative conversations; maintain only the necessary routing,
+decision records and thin catalog index here. A catalog entry can describe another
+component's operation without transferring its ownership to AlloMT.

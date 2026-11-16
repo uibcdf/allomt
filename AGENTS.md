@@ -17,11 +17,11 @@ reporting protocol. Keep repository-specific instructions below.
 
 ## Local ownership and publication
 
-AlloMT is an incubating candidate whose central admission is tracked in
-`uibcdf/molsyssuite#202`. Its source qualification is `uibcdf/allomt#1`.
+AlloMT is registered as an incubating component; central admission is tracked in
+`uibcdf/molsyssuite#202`, with local receiving in `uibcdf/allomt#1`.
 Keep current admission identities and missing gates in `devguide/ADMISSION.md`.
-Do not claim that official generation or member qualification passed before
-the central registration and its genuine admission commit exist.
+Registration and guide receipt do not prove official generation, current-policy
+adoption or member/scientific qualification; retain their actual executed evidence.
 
 Diego authorizes direct commits and pushes to `uibcdf/allomt`; no PR is needed
 for this repository. For changes owned by another UIBCDF repository, use its
@@ -30,10 +30,20 @@ than the default route for a proposed fix. Preserve authorization within its
 stated scope and follow the inherited validation checkpoints.
 
 Write repository prose, code and issue records in English. Read
-`devguide/SCIENTIFIC_SCOPE.md` before scientific design. Reuse provider public
-operations and keep allostery-specific interpretation here. Select the first
-scientific workflow under `uibcdf/allomt#2` before introducing algorithms,
-scientific runtime dependencies or broad result abstractions.
+`devguide/OBJECTIVES.md`, `devguide/SCIENTIFIC_SCOPE.md` and
+`devguide/COMPONENT_RESPONSIBILITIES.md` before scientific design. Keep objective
+exploration broad and open to multiple conceptual approaches and applications.
+A first implementation example must not define or restrict the overall scope.
+Define concrete scientific increments under their owning issues when work is
+commissioned; `uibcdf/allomt#2` tracks a future first increment, not a gate on
+discovering objectives. No single universal allostery model or pipeline is required.
+
+Reuse provider public operations. TopoMT owns cryptic-pocket detection,
+BindingMT owns binding-energy calculation/prediction, ElastNetMT owns reusable
+ENM numerical work, and landscape/state/kinetic work is coordinated with
+LandscapeMT. AlloMT develops allostery-specific science, interpretation and
+composition. Acceptance of goals/method families does not adopt a particular
+third-party library, waive licensing or claim implementation/qualification.
 
 ## Canonical integration guides
 

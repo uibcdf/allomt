@@ -1,6 +1,7 @@
 # Design coverage audit
 
-**Round:** R02. **Reviewed:** 2026-11-15. **Phase:** researcher-needs elicitation.
+**Rounds:** R02 coverage review; R03 acceptance/ownership revision, 2026-11-15.
+**Phase:** researcher-needs elicitation.
 **Owner:** [AlloMT #3](https://github.com/uibcdf/allomt/issues/3).
 
 ## Finding
@@ -8,7 +9,9 @@
 All thirteen explicit researcher needs were represented in N01–N13. No complete
 need was omitted. The documents were not a complete specification, and several
 scientific distinctions and earlier assistant proposals were too implicit.
-This review improves their traceability without treating new ideas as agreements.
+R02 improved their traceability without treating then-new ideas as agreements.
+R03 now records the researcher's explicit acceptance of P01–P10 and the surveyed
+method families, with broad exploration and ecosystem ownership preserved.
 
 ## Coverage of the researcher's original statement
 
@@ -66,10 +69,10 @@ Need order continues to reflect the original statement, not an agreed priority.
 These distinctions clarify scientific meaning; they do not select an algorithm,
 public API or final result class.
 
-## New possibilities, not newly agreed requirements
+## R02 possibilities and R03 acceptance
 
 [PROPOSED_EXTENSIONS.md](PROPOSED_EXTENSIONS.md) records P01–P10 with motivation,
-possible functions, related needs, evidence and unresolved scope. They include
+functions, related needs and evidence. Proposed in R02 and accepted in R03, they include
 cryptic pockets, richer functional profiles, quantitative coupling, epistasis,
 selectivity/developability, active learning, calibrated validation, dynamic
 allostery, other intervention types and generative research workflows.
@@ -78,6 +81,28 @@ allostery, other intervention types and generative research workflows.
 fourteen source-level tool profiles. [RESEARCH_LANDSCAPE.md](RESEARCH_LANDSCAPE.md)
 reviews recent work through 2026-11-15. Scientific relevance, license suitability
 and a working installation are kept separate; no backend was adopted or tested.
+
+## R03 second revision
+
+- **Acceptance restored throughout:** all ten extensions are accepted objectives;
+  their historical filename and R02 history do not imply that acceptance is pending.
+- **Ownership made operational:** the new
+  [responsibility matrix](COMPONENT_RESPONSIBILITIES.md) assigns cryptic-pocket
+  detection to TopoMT, binding energetics to BindingMT, reusable ENM work to
+  ElastNetMT and general landscape/state/kinetic work to LandscapeMT. AlloMT owns
+  its allostery-specific scientific development, interpretation and composition.
+- **Ambition preserved:** [OBJECTIVES.md](OBJECTIVES.md) records open-ended,
+  versatile exploration. The earlier recommendation to focus discussion on a
+  subset is superseded; a later implementation increment does not narrow goals.
+- **Method acceptance distinguished from adoption:** accepting traditional
+  families does not select every reviewed package, waive licenses or establish
+  provider API/runtime qualification.
+- **Resources have a maintained destination:** the [Discussions catalog](discussions.md)
+  holds substantive resource/function reviews and links to owning issues and
+  versioned decisions. The local index is a routing aid, not a second review store.
+
+N01–N13 and P01–P10 remain represented. No accepted objective was removed to
+resolve an ownership collision; its reusable operations were allocated instead.
 
 ## Remaining incompleteness
 

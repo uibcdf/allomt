@@ -1,7 +1,9 @@
 # Open design questions
 
-**Status:** all questions below remain open after discussion round R02.
-Q01–Q10 originate in R01 and are refined here; Q11/Q12 are added by the review.
+**Status:** updated after R03. P01–P10 and broad objective exploration are
+accepted; their implementation details remain open. Q12 records that resolution
+and the remaining coordination questions. Q01–Q10 originate in R01; Q11/Q12
+were added in R02.
 They organize future conversations; they are not a questionnaire that must be
 answered at once or a selected architecture. See [the needs](RESEARCHER_NEEDS.md)
 and [the discussion history](DESIGN_DISCUSSION.md).
@@ -24,13 +26,14 @@ catalytic activity, orthosteric binding, another functional response, stability,
 state preference or molecular association? What is the reference intervention,
 ligand/state and comparison? How should unknown/unsupported outcomes and
 uncertainty be presented? How is orthosteric structural change measured alongside
-functional change and broader stability?
+functional change and broader stability? These are operation-specific questions;
+they do not require every AlloMT function to use one universal response schema.
 
 Should the outputs distinguish affinity, efficacy, pathway/partner bias and
 kinetics, including intrinsic allosteric agonism where applicable? Which labels
 describe a supported neutral result versus insufficient
 evidence? How should site geometry and mechanical susceptibility be kept distinct
-from intervention-specific pharmacology? See proposals P01–P03.
+from intervention-specific pharmacology? See accepted objectives P01–P03.
 
 As scientific motivation, a primary study of LY2033298 at muscarinic receptors
 reported different modulation signs depending on the orthosteric probe and
@@ -140,19 +143,22 @@ Does improving a mechanism mean changing its magnitude, desired activity,
 specificity or another endpoint? Are epistasis, suppressor/rescue mutations and
 resistance forecasts useful extensions, with folding/stability controls (P04)?
 
-## Q10 — Representative cases and priorities
+## Q10 — Illustrative cases and later implementation priorities
 
 Related needs: N01–N13.
 
-Which concrete examples best express the researcher's needs? Which outputs make
-them useful, and which success criteria would the researcher use? When enough
-of the need is understood, which bounded case should become the first scientific
-increment under [AlloMT #2](https://github.com/uibcdf/allomt/issues/2)?
-The need inventory's ordering does not answer this priority question.
+Which diverse examples expose additional needs, alternative conceptual approaches
+and useful outputs? They support continued broad exploration; choosing one is
+not required to define objectives. No example closes the scope.
+
+When implementation is commissioned, which bounded case should become an increment
+under [AlloMT #2](https://github.com/uibcdf/allomt/issues/2), with its own success
+criteria? That later delivery choice does not select the whole product's scope.
+Need ordering and catalog order do not imply delivery priorities.
 
 ## Q11 — Evidence, uncertainty and native-method evaluation
 
-Related needs: N01, N02, N04, N06, N07; proposal P07.
+Related needs: N01, N02, N04, N06, N07; accepted objective P07.
 
 Which reference measurements and negative/neutral cases define success for each
 task? How should target/family, ligand-scaffold and temporal separation limit
@@ -160,11 +166,17 @@ training/test overlap? What calibration, robustness, out-of-domain and cost
 criteria should support comparisons and the goal of improving native methods?
 How should unresolved, failed and contradictory results be presented?
 
-## Q12 — Scope of the proposed extensions
+## Q12 — Accepted extensions and remaining coordination
 
-Related needs: N01–N13; proposals P01–P10.
+Related needs: N01–N13; accepted objectives P01–P10.
 
-Which proposals should become product objectives, scientific research directions,
-optional collaborations or out-of-scope ideas? Which merely clarify an existing
-need? What concrete cases would make each useful? None is accepted by appearing
-in [the proposal register](PROPOSED_EXTENSIONS.md).
+**Resolved in R03:** all ten extensions are accepted. Continue expanding goals;
+do not restrict them to one framework or application. The historical
+[proposal register](PROPOSED_EXTENSIONS.md) now records this accepted status.
+
+**Open:** which operation-specific contracts, provider contributions and evidence
+will support each integration? Follow the
+[responsibility map](COMPONENT_RESPONSIBILITIES.md), including TopoMT, BindingMT,
+ElastNetMT and LandscapeMT. Which further goals or approaches emerge from later
+rounds and the [Discussions catalog](discussions.md)? Acceptance does not select
+packages, models, a benchmark or a delivery sequence.

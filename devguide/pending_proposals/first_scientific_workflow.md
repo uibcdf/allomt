@@ -18,6 +18,10 @@ The broader researcher-needs and design discussion is maintained under
 uibcdf/allomt#3 in [the need inventory](../RESEARCHER_NEEDS.md) and
 [discussion history](../DESIGN_DISCUSSION.md). This issue selects a later first
 bounded increment; it does not define or limit the complete product scope.
+R03 explicitly keeps objective exploration broad and open to multiple conceptual
+approaches. Selecting this increment is not a prerequisite for exploring goals
+or other applications. See [accepted objectives](../OBJECTIVES.md) and
+[component responsibilities](../COMPONENT_RESPONSIBILITIES.md).
 
 ## What
 

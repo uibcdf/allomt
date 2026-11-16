@@ -4,19 +4,26 @@
 mechanisms, being developed as a MolSysSuite scientific component within MolI.
 
 The current source provides the repository foundation and an importable Python
-package. The first scientific workflow is being defined in
-[AlloMT #2](https://github.com/uibcdf/allomt/issues/2).
+package. A future first scientific increment is tracked in
+[AlloMT #2](https://github.com/uibcdf/allomt/issues/2); no scientific workflow is
+implemented yet.
 
 We are currently eliciting researcher needs over several design-discussion
 rounds. [The developer guide](devguide/README.md) maintains the thirteen stated
-needs, discussion history, open questions and provisional architecture under
-[AlloMT #3](https://github.com/uibcdf/allomt/issues/3).
+needs, accepted objectives, component responsibilities, discussion history, open
+questions and provisional architecture under
+[AlloMT #3](https://github.com/uibcdf/allomt/issues/3). Objective exploration stays
+broad and open to multiple allostery approaches and applications. The
+[Discussions catalog](devguide/discussions.md) curates tools, functions, databases,
+benchmarks and research without implying adoption or duplicating provider work.
 
-Central admission is requested in
-[MolSysSuite #202](https://github.com/uibcdf/molsyssuite/issues/202).
-The source candidate follows the official starter sources and `policy-v1.5.12`;
-formal generation and the shared member-policy gate await a published admission
-commit. See [admission and bootstrap status](devguide/ADMISSION.md).
+Central admission was published in
+[`adaef199`](https://github.com/uibcdf/molsyssuite/commit/adaef199b74c6da72ca43c21401c245990c70727)
+under [MolSysSuite #202](https://github.com/uibcdf/molsyssuite/issues/202).
+The initial source used official starter sources and `policy-v1.5.12`;
+official generation and automatic current-policy receiving remain under
+[AlloMT #1](https://github.com/uibcdf/allomt/issues/1). See
+[admission and bootstrap status](devguide/ADMISSION.md) for the separate evidence.
 
 ## Development
 

@@ -1,14 +1,17 @@
 # Scientific scope
 
-**Status:** researcher-needs elicitation. The intended product scope is being
-negotiated over multiple rounds; architecture, methods, priorities and delivery
-commitments remain open. The source currently provides repository infrastructure.
+**Status:** broad objective exploration, with N01–N13 and all ten additional
+P01–P10 objective classes accepted in R03. Further objectives and conceptual
+approaches remain open. Implementation architecture, concrete backends and
+delivery commitments are separate decisions. The source provides infrastructure.
 
 ## Researcher vision
 
 AlloMT (Allostery MultiToolkit) is intended to support prediction,
-characterization and engineering of allosteric modulation within MolSysSuite
-and MolI. The researcher's requested outcomes span target knowledge, candidate
+characterization and engineering of allostery within MolSysSuite and MolI.
+Drug design is a major application within a broad and extensible scientific
+scope; one conceptual approach or application must not define the whole tool.
+The researcher's requested outcomes span target knowledge, candidate
 sites and functional effects, mechanistic interpretation, computational
 experiments, ligand/peptide design, molecular association and mutation effects.
 
@@ -40,10 +43,12 @@ assistant interpretations, proposals and confirmed agreements by round.
 details. [Architecture notes](ARCHITECTURE.md) explore implications while
 remaining explicitly provisional.
 
-The current confirmed process is needs elicitation, several discussion rounds
-and maintained documents that improve with the discussion. A first bounded
-scientific workflow is still to be selected under
-[AlloMT #2](https://github.com/uibcdf/allomt/issues/2). The broader negotiation
+The current confirmed process is broad needs exploration, several discussion
+rounds and maintained documents that improve with the discussion. The accepted
+objectives are summarized in [OBJECTIVES.md](OBJECTIVES.md) and allocated in
+[COMPONENT_RESPONSIBILITIES.md](COMPONENT_RESPONSIBILITIES.md). A later bounded
+implementation under [AlloMT #2](https://github.com/uibcdf/allomt/issues/2) must
+not gate or restrict objective discovery. The broader negotiation
 is tracked in [AlloMT #3](https://github.com/uibcdf/allomt/issues/3).
 
 ## Applicable scientific and ecosystem obligations
@@ -57,7 +62,9 @@ These inherited obligations remain applicable as the product design evolves:
   owns shared molecular representation/operations; ElastNetMT owns its
   elastic-network numerical work. Specialized topography, pharmacophore,
   binding, peptide, knowledge and visualization work retains its owning
-  component. See [the ecosystem map](ECOSYSTEM.md).
+  component. TopoMT owns cryptic-pocket detection, BindingMT binding energies;
+  conformational FEL/state/kinetic work is coordinated with LandscapeMT.
+  See [the ecosystem map](ECOSYSTEM.md) and detailed responsibility matrix.
 - Preserve molecular identity, selections and resolved ordering, atom/group
   correspondence, chemical states and analyzed structures/frames where relevant.
   Indices and identifiers are distinct.
@@ -81,8 +88,10 @@ heading while preserving the original need identities.
 
 [Established methods/tools](METHODS_AND_TOOLS.md) and
 [recent research](RESEARCH_LANDSCAPE.md) motivate
-[P01–P10](PROPOSED_EXTENSIONS.md). They include possible operational clarifications
-and broader functions; none becomes an agreed objective merely by appearing here.
+[P01–P10](PROPOSED_EXTENSIONS.md). R03 explicitly accepts all ten as scientific
+objectives while allocating constituent operations to their owners. The original
+R02 proposal status remains historical; tool adoption/qualification does not
+follow from goal acceptance. Further objectives remain welcome.
 The [references](RESEARCH_REFERENCES.md) distinguish primary studies, methods,
 preprints and source/model documentation, with a review cutoff of 2026-11-15.
 

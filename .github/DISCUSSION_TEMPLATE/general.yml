@@ -1,0 +1,66 @@
+title: "[Resource] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Search the catalog and canonical source before opening a new resource thread.
+        Use a readable type in the title: [Tool], [Method], [Database], [Dataset],
+        [Benchmark], [Paper] or [Resource]. Scientific functions/workflows use Ideas.
+        Unknown terms and incomplete evidence are valid when stated explicitly.
+        Cataloging a resource does not adopt it or transfer component ownership.
+  - type: dropdown
+    id: resource_kind
+    attributes:
+      label: Resource type
+      options:
+        - Tool
+        - Method or algorithm
+        - Database
+        - Dataset
+        - Benchmark
+        - Paper
+        - Other scientific resource
+    validations:
+      required: true
+  - type: textarea
+    id: canonical_source
+    attributes:
+      label: Canonical source and identity
+      description: URL, DOI or accession; exact version/commit/data release if relevant. Link an existing thread if related.
+    validations:
+      required: true
+  - type: textarea
+    id: scientific_use
+    attributes:
+      label: Scientific question and use
+      description: What could this enable? Link N/P objectives if useful; further goals and approaches are welcome. For a benchmark, describe the task and reference evidence.
+    validations:
+      required: true
+  - type: textarea
+    id: ownership
+    attributes:
+      label: Scientific owner and coordination
+      description: Which component supplies each operation? State unresolved ownership. TopoMT pockets, BindingMT binding energies, ElastNetMT ENM and LandscapeMT landscapes retain their owners.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Assessment evidence and review date
+      description: Reviewer/date; suggested, source-inspected, installed, executed or benchmarked. Link versions/artifacts and state limits, failures or missing evidence. No runtime evidence is required to propose a resource.
+    validations:
+      required: true
+  - type: textarea
+    id: rights
+    attributes:
+      label: License and access terms
+      description: Separate code, bundled assets, weights/checkpoints, data and service terms. Unknown is acceptable. Include dataset/reference provenance and rights for benchmarks.
+    validations:
+      required: true
+  - type: textarea
+    id: disposition
+    attributes:
+      label: Adoption status, questions and next steps
+      description: Distinguish interest from adoption. Link any owning decision or actionable issue; give a revisit trigger if deferred. Do not mirror datasets/models in the thread.
+    validations:
+      required: true

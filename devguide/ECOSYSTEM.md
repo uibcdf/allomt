@@ -1,6 +1,8 @@
 # Ecosystem and ownership
 
-This map records the repository review used to start AlloMT on 2026-11-15.
+This map records the repository review used to start AlloMT and the R03 ownership
+clarifications on 2026-11-15. [The responsibility matrix](COMPONENT_RESPONSIBILITIES.md)
+is the detailed coordination route for the accepted objectives.
 It guides reuse; it does not certify installed compatibility. The central
 [suite registry](https://github.com/uibcdf/molsyssuite/blob/main/suite.toml)
 owns current membership and applicability. Each provider owns its actual public
@@ -14,17 +16,20 @@ contracts, implementation and qualification.
 | [MolSysSuite](https://github.com/uibcdf/molsyssuite) | Shared engineering/modeling rules, member registry, official starter, guide inventories and coordinated adoption. |
 | [MolSysMT](https://github.com/uibcdf/molsysmt) | Molecular systems, topology/chemical-state/structure boundaries, selection, identity maps, structural analysis and interoperability. |
 | [MolSysViewer](https://github.com/uibcdf/molsysviewer) | Molecular visualization and supported scientific add-on integration; presentation does not own AlloMT's scientific results. |
-| [TopoMT](https://github.com/uibcdf/topomt) | Molecular topography, pockets, surfaces and interfaces through explicitly qualified methods. Preserve backend-specific score and measurement meanings. |
+| [TopoMT](https://github.com/uibcdf/topomt) | Molecular topography, pockets, surfaces and interfaces, including cryptic-pocket detection across conformations. AlloMT consumes these results for allosteric assessment. Actual supported profiles retain their own qualification. |
 | [BindingMT](https://github.com/uibcdf/bindingmt) | Binding modeling and characterization. Docking and initial interface profiles exist; broader complex prediction/refinement and free-energy directions have separate qualification. |
 | [PharmacophoreMT](https://github.com/uibcdf/pharmacophoremt) | Pharmacophore features/shapes, model construction, comparison and screening through its implemented profiles. |
 | [ElastNetMT](https://github.com/uibcdf/elastnetmt) | Elastic-network numerical modeling. Preserve its actual normalization, units, supported modes and backend boundaries. |
+| [LandscapeMT](https://github.com/uibcdf/landscapemt) | New provider direction for conformational exploration, FEL/state/kinetic analysis and ensemble inference. Coordinate boundaries with TopoMT, BindingMT, ElastNetMT and AlloMT; preview/scope does not establish a working public API. |
 | [PeptideMT](https://github.com/uibcdf/peptidemt) | Peptide design and functional evaluation. Retain candidate occurrence identity, original outcomes, provider scope and model limitations. |
 | [Sabueso](https://github.com/uibcdf/sabueso) | Scientific knowledge under direct MolI governance; neither a suite member nor AlloMT's execution engine. |
 | [MolSysSketcher](https://github.com/uibcdf/molsyssketcher) | Reusable molecular 2D representations and interaction-diagram direction. Bounded TypeScript/document/SVG foundations exist; suite admission is tracked in [MolSysSuite #199](https://github.com/uibcdf/molsyssuite/issues/199). |
 | [ViableMT](https://github.com/uibcdf/viablemt) | Conceptual ADMET/developability direction. The reviewed repository supplies a README, not an implemented provider API. |
 
-AlloMT owns the allostery-specific scientific layer. Proposed integration does
-not create a dependency, an adapter or a second implementation of provider work.
+AlloMT owns the allostery-specific scientific layer and develops it across broad
+conceptual approaches/applications. Accepted scientific objectives can depend on
+operations owned elsewhere. Integration interest does not create a dependency,
+an adapter, a received provider API or a second implementation of provider work.
 
 ## Support and developer tools
 

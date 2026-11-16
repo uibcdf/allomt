@@ -11,6 +11,12 @@ they are not claims of implemented capability, a finalized specification or an
 agreed delivery order. Need numbers preserve the original ordering, not priority.
 Details, scope refinements and interpretation questions remain open for negotiation.
 
+**R03 update:** the original needs remain in scope, and all ten additional P
+objective classes have been accepted. Objective exploration stays broad and
+open-ended. [OBJECTIVES.md](OBJECTIVES.md) records the current scientific direction;
+[COMPONENT_RESPONSIBILITIES.md](COMPONENT_RESPONSIBILITIES.md) allocates reusable
+operations without reducing the intended capabilities.
+
 ## N01 — Discover allosteric sites and predict modulation direction
 
 Given a protein molecular target, obtain relevant functional knowledge, including
@@ -90,7 +96,7 @@ topics in [Q02](DESIGN_QUESTIONS.md#q02--functional-reference-and-modulation-dir
 and [Q06](DESIGN_QUESTIONS.md#q06--simulation-experiments-and-their-analysis).
 This preserves the requested loss-of-function/structure comparison; it does not
 define every allosteric mechanism as structural damage. Dynamic/entropic and
-stability-versus-function distinctions are discussed in R02 and proposal P08.
+stability-versus-function distinctions are discussed in R02 and accepted objective P08.
 
 ## N09 — Help design bifunctional ortho-allo molecules
 
@@ -134,14 +140,15 @@ scientific question. Mutation scope and evaluation are open in
 [Q09](DESIGN_QUESTIONS.md#q09--assembly-modulation-and-mutation-design).
 Improvement has not been defined as increasing a coupling-score magnitude.
 The revised heading preserves the researcher's broader wording; potential
-epistasis, rescue and resistance functions are separate proposals in P04.
+epistasis, rescue and resistance functions are accepted extensions in P04.
 
 ## Current coverage and next rounds
 
 All thirteen stated needs are recorded. Priorities, representative cases, success
 criteria, public operations, result contracts, source layout and method choices
-remain under discussion. [Q10](DESIGN_QUESTIONS.md#q10--representative-cases-and-priorities)
-collects the questions needed to choose a later first scientific increment.
+remain under discussion. [Q10](DESIGN_QUESTIONS.md#q10--illustrative-cases-and-later-implementation-priorities)
+supports broad exploration with diverse examples; a later implementation choice
+does not define or close the objectives.
 
 Update this inventory as the researcher clarifies the needs. Retain stable IDs,
 record significant changes and their reasons in [the discussion history](DESIGN_DISCUSSION.md),
@@ -149,6 +156,7 @@ and distinguish a revised need from an assistant's proposed implementation.
 The design discussion is tracked in [AlloMT #3](https://github.com/uibcdf/allomt/issues/3).
 
 The R02 [coverage audit](DESIGN_AUDIT.md) traces all thirteen needs and earlier
-assistant proposals. [P01–P10](PROPOSED_EXTENSIONS.md) are additional possibilities
-to negotiate, not newly accepted needs. [Methods/tools](METHODS_AND_TOOLS.md)
+assistant proposals. [P01–P10](PROPOSED_EXTENSIONS.md), introduced as possibilities
+in R02, are accepted objective classes as of R03; their historical IDs remain.
+[Methods/tools](METHODS_AND_TOOLS.md)
 and [recent research](RESEARCH_LANDSCAPE.md) provide their evidence and limits.

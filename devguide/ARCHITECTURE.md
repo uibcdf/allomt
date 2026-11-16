@@ -4,8 +4,10 @@
 architecture. **Current phase:** researcher-needs elicitation under
 [AlloMT #3](https://github.com/uibcdf/allomt/issues/3).
 
-Read [the researcher's needs](RESEARCHER_NEEDS.md) and
-[the discussion record](DESIGN_DISCUSSION.md) first. No source-module tree,
+Read [the researcher's needs](RESEARCHER_NEEDS.md),
+[accepted objectives](OBJECTIVES.md) and [the discussion record](DESIGN_DISCUSSION.md)
+first. R03 accepts scientific breadth and provider coordination; the software
+architecture remains provisional. No source-module tree,
 domain class hierarchy, public API, backend or scientific result schema is
 selected by this document. The implementation remains the minimal source scaffold.
 
@@ -51,9 +53,13 @@ boundaries and granularity should follow the negotiated needs and concrete cases
 
 The [ecosystem map](ECOSYSTEM.md) and canonical MolSysSuite guide retain their
 authority for provider ownership. Molecular representation and shared structural
-operations belong to MolSysMT; elastic-network numerical work is coordinated
-with ElastNetMT; pharmacophore, binding, peptide and visualization capabilities
-retain their existing owners. Sabueso supplies scientific knowledge through its
+operations belong to MolSysMT; TopoMT owns cryptic-pocket detection, BindingMT
+binding-energy calculation/prediction, and ElastNetMT reusable ENM calculations.
+General landscape/state/kinetic work is coordinated with LandscapeMT.
+Pharmacophore, peptide and visualization capabilities retain their owners.
+The detailed [responsibility map](COMPONENT_RESPONSIBILITIES.md) distinguishes
+provider work from AlloMT's allostery-specific methods and interpretation.
+Sabueso supplies scientific knowledge through its
 own contracts. Requested integrations do not establish that every required API
 is already implemented or that new runtime dependencies have been selected.
 
@@ -66,7 +72,7 @@ No new cross-component contract is imposed by these notes.
 
 The initial interpretations I01–I05 are recorded in
 [R01](DESIGN_DISCUSSION.md#r01--researcher-vision-and-discussion-process-2026-11-15).
-None is yet an agreed architecture. Subsequent rounds will identify which
+None is yet an agreed software architecture. Subsequent rounds will identify which
 concepts, operations and result meanings are necessary, refine this document,
 and record the rationale for accepted, revised or withdrawn proposals.
 
@@ -90,7 +96,27 @@ and [recent research](RESEARCH_LANDSCAPE.md) motivate further questions:
   development and distinguish accuracy, uncertainty, generalization and cost.
 
 The earlier conceptual views of public operations, method implementations and
-traceable results are now explicit as I06. Contrast against computational and
-experimental references is explicit as I07/P07. These remain proposals.
-P01–P10 in [the proposal register](PROPOSED_EXTENSIONS.md) do not create Python
-packages, public classes, dependencies or new cross-component contracts here.
+traceable results are explicit as I06 and remain provisional architectural views.
+Contrast against computational and experimental references is explicit as
+I07/P07; its scientific objective is accepted in R03. All P01–P10 are now
+accepted goals in [the extension register](PROPOSED_EXTENSIONS.md), without
+creating Python packages, public classes, dependencies or cross-component contracts.
+
+## R03 constraints on subsequent design
+
+Keep several independently useful scientific approaches and entry points possible.
+No universal pocket-to-ligand pipeline, thermodynamic cycle, perturbation model,
+state model or path representation is selected. Method-specific contracts can
+differ while preserving the quantities, molecular correspondence and evidence
+needed at their actual boundaries.
+
+Native allostery-specific algorithms are a substantial AlloMT responsibility.
+Reusable pocket, binding, ENM and landscape capabilities keep their scientific
+owners, whether supplied by native or third-party methods. Missing provider
+operations require coordination, not a duplicate engine here. Provider scope or
+an illustrative API does not establish a working integration.
+
+The [resource catalog](discussions.md) supports open exploration and comparison;
+it is not an extension/plugin registry or a list of runtime dependencies. A
+bounded implementation issue defines that increment's evidence and interfaces
+without limiting the wider scientific objectives.

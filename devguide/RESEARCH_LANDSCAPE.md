@@ -6,8 +6,13 @@ primary sources and publication types are recorded in
 [RESEARCH_REFERENCES.md](RESEARCH_REFERENCES.md).
 
 The established foundations are compared in [METHODS_AND_TOOLS.md](METHODS_AND_TOOLS.md).
-The possibilities inferred for AlloMT remain proposals in
-[PROPOSED_EXTENSIONS.md](PROPOSED_EXTENSIONS.md).
+The possibilities inferred for AlloMT were proposed in R02 and accepted as
+P01–P10 objectives in R03; see [the extension register](PROPOSED_EXTENSIONS.md).
+Their software adoption and scientific qualification remain separate. Coordinate
+generic operations through [the responsibility map](COMPONENT_RESPONSIBILITIES.md),
+including TopoMT, BindingMT, ElastNetMT and LandscapeMT. The sections below retain
+the R02 research findings; the R03 revision changes acceptance and ownership,
+without claiming new literature review or executed method comparisons.
 
 ## T01 — Ensembles and cryptic opportunities beyond a single structure
 
@@ -122,6 +127,7 @@ hardware and actual scientific receiving remain distinct gates. In particular,
 BioEmu2's core MIT label does not cover all bundled assets/notices; see the
 [source-level tool review](METHODS_AND_TOOLS.md).
 
-The proposed new functions are not automatically part of the agreed product.
-Priorities, representative systems and success criteria remain to be negotiated
-under [AlloMT #3](https://github.com/uibcdf/allomt/issues/3).
+P01–P10 became accepted scientific objectives in R03. Continue exploring further
+goals and approaches under [AlloMT #3](https://github.com/uibcdf/allomt/issues/3).
+Concrete backends, representative evaluations, success criteria and delivery
+priorities remain to be negotiated; accepted scope is not implemented capability.

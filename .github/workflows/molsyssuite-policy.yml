@@ -1,8 +1,8 @@
 name: MolSysSuite policy
 
 on:
-  # Central admission is pending in uibcdf/molsyssuite#202.
-  # Restore automatic starter triggers with the published admission SHA.
+  # Admission is published; official current-policy receiving remains allomt#1.
+  # Restore automatic starter triggers through the supported immutable-input route.
   workflow_dispatch:
     inputs:
       admission_sha:

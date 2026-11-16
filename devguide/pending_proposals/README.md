@@ -4,8 +4,9 @@ Open proposals following [`reporting_protocol.md`](../reporting_protocol.md).
 
 <!-- generated: devguide_index -->
 
-### Active (1)
+### Active (2)
 
+- [`discussions_resource_catalog.md`](discussions_resource_catalog.md) — [#4](https://github.com/uibcdf/allomt/issues/4) — Establish and maintain a Discussions catalog of scientific resources and functions. *(active, inspected)*
 - [`researcher_needs_and_design.md`](researcher_needs_and_design.md) — [#3](https://github.com/uibcdf/allomt/issues/3) — Maintain researcher needs and the negotiated AlloMT design across discussion rounds. *(active, inspected)*
 
 ### Partial (1)

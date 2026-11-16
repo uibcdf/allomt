@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "repository": "uibcdf/allomt",
+  "observed_on": "2026-11-15",
+  "purpose": "Thin routing index; substantive reviews and current status live in Discussions.",
+  "catalog": {
+    "id": "D_kwDOVuu9Xc4ArLnv",
+    "number": 5,
+    "url": "https://github.com/uibcdf/allomt/discussions/5"
+  },
+  "entries": [
+    {
+      "key": "tool:prody",
+      "kind": "tool",
+      "title": "[Tool] ProDy — perturbation and essential-site methods",
+      "scientific_owner": "uibcdf/elastnetmt",
+      "related_objectives": [
+        "N04",
+        "P01",
+        "P08"
+      ],
+      "canonical_url": "https://github.com/prody/ProDy",
+      "discussion": {
+        "id": "D_kwDOVuu9Xc4ArLnx",
+        "number": 6,
+        "url": "https://github.com/uibcdf/allomt/discussions/6"
+      }
+    },
+    {
+      "key": "tool:mochi",
+      "kind": "tool",
+      "title": "[Tool] MoCHI — interpretable mutational and energetic inference",
+      "scientific_owner": "uibcdf/allomt; coordinate endpoint-specific providers",
+      "related_objectives": [
+        "N13",
+        "P04",
+        "P07"
+      ],
+      "canonical_url": "https://github.com/lehner-lab/MoCHI",
+      "discussion": {
+        "id": "D_kwDOVuu9Xc4ArLny",
+        "number": 7,
+        "url": "https://github.com/uibcdf/allomt/discussions/7"
+      }
+    },
+    {
+      "key": "tool:passer2",
+      "kind": "tool",
+      "title": "[Tool] PASSer2.0 — allosteric-site ML baseline",
+      "scientific_owner": "uibcdf/allomt; pocket operations with uibcdf/topomt",
+      "related_objectives": [
+        "N01",
+        "N04",
+        "N06"
+      ],
+      "canonical_url": "https://github.com/smu-tao-group/PASSer2.0",
+      "discussion": {
+        "id": "D_kwDOVuu9Xc4ArLnz",
+        "number": 8,
+        "url": "https://github.com/uibcdf/allomt/discussions/8"
+      }
+    },
+    {
+      "key": "tool:alloviz",
+      "kind": "tool",
+      "title": "[Tool] AlloViz — network reference, GPL implementation",
+      "scientific_owner": "uibcdf/allomt; numerical provider roles per operation",
+      "related_objectives": [
+        "N02",
+        "N05",
+        "P08"
+      ],
+      "canonical_url": "https://github.com/frannerin/AlloViz",
+      "discussion": {
+        "id": "D_kwDOVuu9Xc4ArLn0",
+        "number": 9,
+        "url": "https://github.com/uibcdf/allomt/discussions/9"
+      }
+    },
+    {
+      "key": "method:prs-essa",
+      "kind": "method",
+      "title": "[Method] PRS and ESSA — coordinate reusable numerical operations",
+      "scientific_owner": "uibcdf/elastnetmt",
+      "related_objectives": [
+        "N04",
+        "P01",
+        "P03"
+      ],
+      "canonical_url": "https://www.bahargroup.org/prody/manual/reference/dynamics/perturb.html",
+      "discussion": {
+        "id": "D_kwDOVuu9Xc4ArLn1",
+        "number": 10,
+        "url": "https://github.com/uibcdf/allomt/discussions/10"
+      }
+    },
+    {
+      "key": "function:cryptic-pockets",
+      "kind": "function",
+      "title": "[Function] Cryptic-pocket detection — TopoMT handoff to allostery studies",
+      "scientific_owner": "uibcdf/topomt",
+      "related_objectives": [
+        "N01",
+        "N04",
+        "P01"
+      ],
+      "canonical_url": "https://github.com/uibcdf/topomt",
+      "discussion": {
+        "id": "D_kwDOVuu9Xc4ArLn2",
+        "number": 11,
+        "url": "https://github.com/uibcdf/allomt/discussions/11"
+      }
+    },
+    {
+      "key": "function:binding-energies",
+      "kind": "function",
+      "title": "[Function] Binding-energy estimation and calculation — BindingMT ownership",
+      "scientific_owner": "uibcdf/bindingmt",
+      "related_objectives": [
+        "N09",
+        "N10",
+        "P03"
+      ],
+      "canonical_url": "https://github.com/uibcdf/bindingmt",
+      "discussion": {
+        "id": "D_kwDOVuu9Xc4ArLn3",
+        "number": 12,
+        "url": "https://github.com/uibcdf/allomt/discussions/12"
+      }
+    },
+    {
+      "key": "function:landscape-states",
+      "kind": "function",
+      "title": "[Function] Conformational landscapes, states and kinetics — LandscapeMT coordination",
+      "scientific_owner": "uibcdf/landscapemt",
+      "related_objectives": [
+        "N05",
+        "N10",
+        "P03",
+        "P08",
+        "P10"
+      ],
+      "canonical_url": "https://github.com/uibcdf/landscapemt",
+      "discussion": {
+        "id": "D_kwDOVuu9Xc4ArLn4",
+        "number": 13,
+        "url": "https://github.com/uibcdf/allomt/discussions/13"
+      }
+    },
+    {
+      "key": "database:asd",
+      "kind": "database",
+      "title": "[Database] ASD — reported allostery and resource coverage",
+      "scientific_owner": "uibcdf/sabueso; source-specific coordination",
+      "related_objectives": [
+        "N01",
+        "N03",
+        "N11"
+      ],
+      "canonical_url": "https://doi.org/10.1093/nar/gkad915",
+      "discussion": {
+        "id": "D_kwDOVuu9Xc4ArLn5",
+        "number": 14,
+        "url": "https://github.com/uibcdf/allomt/discussions/14"
+      }
+    },
+    {
+      "key": "benchmark:allostery-tasks",
+      "kind": "benchmark",
+      "title": "[Benchmark] A collection of task-specific allostery evaluations",
+      "scientific_owner": "uibcdf/allomt; provider/knowledge contributions",
+      "related_objectives": [
+        "N07",
+        "P07"
+      ],
+      "canonical_url": "https://github.com/uibcdf/allomt/issues/3",
+      "discussion": {
+        "id": "D_kwDOVuu9Xc4ArLn6",
+        "number": 15,
+        "url": "https://github.com/uibcdf/allomt/discussions/15"
+      }
+    },
+    {
+      "key": "resource:research-dossier",
+      "kind": "resource",
+      "title": "[Resource] AlloMT research dossier — established methods and recent directions",
+      "scientific_owner": "uibcdf/allomt; individual resources keep their owners",
+      "related_objectives": [
+        "N01",
+        "N02",
+        "N04",
+        "N05",
+        "N06",
+        "N07"
+      ],
+      "canonical_url": "https://github.com/uibcdf/allomt/blob/main/devguide/RESEARCH_REFERENCES.md",
+      "discussion": {
+        "id": "D_kwDOVuu9Xc4ArLn7",
+        "number": 16,
+        "url": "https://github.com/uibcdf/allomt/discussions/16"
+      }
+    }
+  ]
+}

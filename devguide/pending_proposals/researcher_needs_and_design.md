@@ -52,7 +52,23 @@ review cites 29 primary paper/documentation references and fourteen immutable
 repository/license snapshots. This is a targeted scoping/source review, with
 publication types and limitations explicit. No scientific benchmark, model
 download, third-party installation or runtime qualification was performed.
-No new proposal is recorded as an agreed product objective or method choice.
+No new proposal was recorded as an agreed objective or method choice in R02.
+
+R03 records Diego's acceptance of P01–P10 and the traditional method families,
+while explicitly retaining open-ended objective exploration and multiple
+conceptual approaches/applications. [OBJECTIVES.md](../OBJECTIVES.md) and the
+[responsibility matrix](../COMPONENT_RESPONSIBILITIES.md) distinguish accepted
+goals from provider operations, adoption and executed scientific evidence.
+TopoMT owns cryptic-pocket detection, BindingMT binding energetics, ElastNetMT
+reusable ENM work, and general landscape/state/kinetic work is coordinated with
+LandscapeMT. Its owning coordination issue is uibcdf/landscapemt#1; no source
+changes or PR were made there. Catalog receiving/upkeep belongs to uibcdf/allomt#4.
+
+G04–G07 record accepted breadth, operation ownership, continued exploration and
+Discussions curation. The previous recommendation to focus discussion on a
+subset is superseded. A later implementation increment does not restrict global
+objectives. Software architecture, APIs, backends and priorities remain open;
+acceptance of method families does not waive the permissive licensing criterion.
 
 ## What was refuted
 

@@ -1,6 +1,7 @@
 # Methods and tools for discussion
 
-**Reviewed:** 2026-11-15. **Status:** research/options, not selected integrations.
+**Reviewed:** 2026-11-15; ownership revised in R03.
+**Status:** method families accepted for exploration; specific integrations unselected.
 Primary references are in [the bibliography](RESEARCH_REFERENCES.md); immutable
 license observations are in [the tool snapshot](research/tool_inventory_2026_11_15.json).
 No tool/model was installed, executed, benchmarked or qualified for AlloMT here.
@@ -33,6 +34,27 @@ The MWC/KNF papers are historical theoretical foundations, not a requirement tha
 AlloMT force every mechanism into a two-state/concerted model. The PyEMMA paper
 documents a method family; its software was not license-screened or selected in
 this fourteen-tool inventory.
+
+## R03 ownership of reusable operations
+
+Acceptance of these method families broadens the available scientific approaches;
+it does not assign every underlying operation to AlloMT or qualify an implementation.
+Use the [responsibility map](COMPONENT_RESPONSIBILITIES.md) when selecting a route.
+
+| Method/operation | Owner or coordination | AlloMT responsibility |
+| --- | --- | --- |
+| ENM construction, modes, covariance, PRS/ESSA-like reusable perturbation/spectral numerics | ElastNetMT | Allostery-specific analyses, comparisons and interpretation. |
+| Geometric pockets, including cryptic-pocket detection across conformations | TopoMT, with ensemble inputs from their providers | Assess allosteric relevance and relate opportunities to intervention effects. |
+| Binding poses/affinity, binding-energy prediction/calculation | BindingMT | Define allosteric comparisons and use the binding endpoints appropriately. |
+| Conformational exploration, reduction, reweighting, FELs, metastable states and transition kinetics | LandscapeMT; execution coordinated with relevant simulation/platform owners | Formulate allosteric questions and interpret/combine the applicable outputs. |
+| Ensemble-generating models | LandscapeMT for generic ensemble inference; other molecular/binding owners as appropriate | Allosteric selection criteria and functional evaluation of generated candidates. |
+| Thermodynamic linkage, functional/occupancy models, information-based mechanisms, coevolution and mutation inference | Allocate constituent operations by endpoint; allostery-specific scientific models/analyses in AlloMT | Develop and compare appropriate allostery methods while reusing generic binding/landscape/molecular tools. |
+| Pharmacophore, ligand/peptide generation and modality-specific evaluation | PharmacophoreMT, BindingMT, PeptideMT and other appropriate owners | Specify and evaluate allosteric design objectives across modalities. |
+
+A library can cross several rows: ownership is assigned to the operation, not
+the whole package. Generic state-transition paths and atom/residue communication
+hypotheses also retain distinct meanings. LandscapeMT is newly introduced;
+planned capabilities are not evidence of a public API or working route.
 
 ## Tool/license screening
 
@@ -80,11 +102,12 @@ predicted pocket annotations and reported experimental modulators must retain
 their actual evidence categories. Bulk/API availability and use rights remain
 separate questions; this review does not establish a complete target ligand set.
 
-A useful candidate experiment for later negotiation is to compare a fast
+A possible experiment for later negotiation is to compare a fast
 ElastNetMT-compatible perturbation analysis with one externally described
 baseline, then evaluate site recovery, functional relevance, uncertainty and
 cost on declared cases. Pocket generation/geometry would use its scientific
-owner. This is a proposal, not the selected first AlloMT workflow.
+owner. This is one example among many approaches, not a selected first workflow
+or a restriction on continued objective exploration.
 
 Native-method development should compare like-for-like questions, input budgets,
 splits and observables. Preserve method-specific outputs and named backends;

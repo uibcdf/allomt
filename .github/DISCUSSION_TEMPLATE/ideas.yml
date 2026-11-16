@@ -1,0 +1,42 @@
+title: "[Function] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Explore scientific functions and workflows without limiting AlloMT to one
+        conceptual scheme. Search existing threads first. Concrete implementation
+        work and missing provider capabilities belong in their owning issues.
+        Use General for resource/tool/database/benchmark catalog entries.
+  - type: textarea
+    id: objective
+    attributes:
+      label: Scientific objective or function
+      description: What question or application would this enable? Diverse approaches and new goals are welcome; link related needs/objectives when useful.
+    validations:
+      required: true
+  - type: textarea
+    id: ownership
+    attributes:
+      label: AlloMT contribution and provider responsibilities
+      description: Allocate reusable operations by scientific owner and state open boundaries. Do not duplicate TopoMT pockets, BindingMT binding energies, ElastNetMT ENM or LandscapeMT landscape/state/kinetic work.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Useful examples and possible inputs or outputs
+      description: Describe only what is relevant at this stage; no universal state, path or result schema is required. Examples do not close the product scope.
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Sources, current evidence and date
+      description: Link papers, resources, provider contracts and existing discussions; state what is proposed, inspected or actually executed and what remains unknown. Acceptance of a goal is separate from implementation.
+    validations:
+      required: true
+  - type: textarea
+    id: questions
+    attributes:
+      label: Open questions, decisions and next steps
+      description: Link the owning issue for concrete work. Decisions need date/reason and reciprocal links; deferral needs a revisit trigger. Early scientific discussion need not select a backend or API.
+    validations:
+      required: true

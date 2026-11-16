@@ -131,6 +131,67 @@ backend, public API, model, benchmark or first workflow has been agreed in R02.
 Questions Q01–Q10 are refined; Q11/Q12 capture evaluation and proposal-scope choices.
 Later rounds can accept, revise or reject these possibilities using concrete cases.
 
+## R03 — Accepted breadth, ecosystem ownership and resource curation, 2026-11-15
+
+### Researcher directions
+
+Diego accepts all P01–P10 objectives and the surveyed traditional method
+families. He requires coordination with other MolSysSuite components rather
+than duplicating their functions: cryptic-pocket detection belongs to TopoMT,
+binding-energy estimation/calculation to BindingMT, reusable ENM work to
+ElastNetMT, and landscape-related work must include the new LandscapeMT.
+
+He explicitly rejects narrowing objective exploration to a first workflow now.
+AlloMT must be versatile and powerful, accommodate multiple conceptual approaches
+to allostery and pharmacological design, and remain open to further applications.
+He also requests a Discussions mechanism for tools, functions, databases,
+benchmarks and other resources of interest.
+
+### Confirmed agreements
+
+- G04: P01–P10 are accepted scientific objectives. The surveyed traditional
+  method families are relevant approaches to explore. Specific software/model
+  adoption, feasibility and executed qualification remain separate decisions.
+- G05: Reusable operations retain their component ownership. AlloMT contributes
+  allostery-specific science, interpretation and composition; an accepted goal
+  does not transfer pocket, binding, ENM or landscape engines into AlloMT.
+- G06: Continue broad, open-ended objective exploration. No first example,
+  mandatory conceptual framework or single pipeline limits the product scope.
+- G07: Begin a maintained resource/function catalog in GitHub Discussions, with
+  sources, ownership, assessment and adoption distinguished.
+
+G01–G03 continue. The earlier R02 recommendation to concentrate discussion on a
+small initial group of objectives is superseded by G06. AlloMT #2 remains a
+future implementation increment, not a prerequisite for exploring objectives.
+
+### Revision and coordination
+
+[OBJECTIVES.md](OBJECTIVES.md) records the current agreement;
+[COMPONENT_RESPONSIBILITIES.md](COMPONENT_RESPONSIBILITIES.md) allocates reusable
+operations and distinguishes state-transition paths from atom/residue
+communication, and conformational FELs from binding energies. The detailed
+P01–P10 register retains stable IDs and its historical filename.
+
+LandscapeMT coordination has an owning issue,
+[LandscapeMT #1](https://github.com/uibcdf/landscapemt/issues/1). Its intended
+direction is not treated as an implemented or qualified public API. No source
+changes or PR were made there. The Discussions catalog and its receiving are
+tracked in [AlloMT #4](https://github.com/uibcdf/allomt/issues/4), with local
+upkeep in [discussions.md](discussions.md).
+
+During publication, a concurrent canonical-guide receipt was integrated without
+altering its bytes. Independent central readback also corrected the old pending
+registration status: AlloMT admission exists at
+`adaef199b74c6da72ca43c21401c245990c70727`. [ADMISSION.md](ADMISSION.md) retains
+the original source provenance and separates current-policy/member receiving
+still owned by AlloMT #1. This administrative correction does not select
+scientific methods or change the agreed objectives.
+
+The software architecture, module layout, API, concrete backends, scientific
+benchmarks and delivery order remain open. I01–I06 do not become accepted software
+architecture through goal acceptance; I07's comparison objective is accepted
+through P07, while its implementation remains to negotiate.
+
 ## Continuing the discussion
 
 For each later round, record its date, the researcher's new or corrected
