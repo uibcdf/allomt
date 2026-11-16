@@ -1,0 +1,68 @@
+{
+  "schema": "allomt.bootstrap-sources.v1",
+  "observed_on": "2026-11-15",
+  "status": "pre-admission-candidate",
+  "starter_repository": "uibcdf/molsyssuite",
+  "starter_commit": "e4d97ba1ac5341aa2d1cd50b56096098e59bb940",
+  "policy_release": "policy-v1.5.12",
+  "central_admission_issue": "uibcdf/molsyssuite#202",
+  "official_generation": "pending_missing_central_membership",
+  "guides": [
+    {
+      "owner": "uibcdf/molsyssuite",
+      "source": "MOLSYSSUITE_GUIDE.md",
+      "filename": "MOLSYSSUITE_GUIDE.md",
+      "commit": "e4d97ba1ac5341aa2d1cd50b56096098e59bb940",
+      "blob": "c3ba41977e5dcf880d6379ab500fed66d5df65fc"
+    },
+    {
+      "owner": "uibcdf/smonitor",
+      "source": "standards/SMONITOR_GUIDE.md",
+      "filename": "SMONITOR_GUIDE.md",
+      "commit": "f69d2d5e91be9d5f81dd48b123d00d0596e0a8ca",
+      "blob": "c64fcf2d5854515e0f6e6e9d0a405c5054ff17b4"
+    },
+    {
+      "owner": "uibcdf/depdigest",
+      "source": "standards/DEPDIGEST_GUIDE.md",
+      "filename": "DEPDIGEST_GUIDE.md",
+      "commit": "30bbd2c3d2a1391452a6906217dce33faf96cb3c",
+      "blob": "7838763b039cba4aeb5df2d83151038eb872179f"
+    },
+    {
+      "owner": "uibcdf/argdigest",
+      "source": "standards/ARGDIGEST_GUIDE.md",
+      "filename": "ARGDIGEST_GUIDE.md",
+      "commit": "f01d1b1c933a9723efd8e9defc8cf260f93b0b25",
+      "blob": "5bd64e12edf7647d27dad65ac5affe1c40c61ce6"
+    },
+    {
+      "owner": "uibcdf/pyunitwizard",
+      "source": "standards/PYUNITWIZARD_GUIDE.md",
+      "filename": "PYUNITWIZARD_GUIDE.md",
+      "commit": "c1cf832063f61efda0e9d68031b1ed2d149a6cb4",
+      "blob": "e87d9c42ab67ce87a697cc8e3d11e576c86ae764"
+    },
+    {
+      "owner": "uibcdf/ackredit",
+      "source": "standards/ACKREDIT_GUIDE.md",
+      "filename": "ACKREDIT_GUIDE.md",
+      "commit": "0a834f05414142684983910b5dd9a05c078a8ce3",
+      "blob": "7934416172af42887eb6cbd2dc307a5f91be233c"
+    },
+    {
+      "owner": "uibcdf/gh-run-receptor",
+      "source": "standards/GH_RUN_RECEPTOR_GUIDE.md",
+      "filename": "GH_RUN_RECEPTOR_GUIDE.md",
+      "commit": "ac1fe57de683be7e1057b6d83745db349706538c",
+      "blob": "72c3f33f9ebcb18194aaa582ed9af43eedd4749a"
+    },
+    {
+      "owner": "uibcdf/pytest-receptor",
+      "source": "standards/PYTEST_RECEPTOR_GUIDE.md",
+      "filename": "PYTEST_RECEPTOR_GUIDE.md",
+      "commit": "280922903442812438cfad379963db2e012350d9",
+      "blob": "819c8a516d643fdb2601e474e1e4f3b840f29484"
+    }
+  ]
+}

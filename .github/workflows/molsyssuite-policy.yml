@@ -1,0 +1,20 @@
+name: MolSysSuite policy
+
+on:
+  # Central admission is pending in uibcdf/molsyssuite#202.
+  # Restore automatic starter triggers with the published admission SHA.
+  workflow_dispatch:
+    inputs:
+      admission_sha:
+        description: Published central main commit admitting uibcdf/allomt
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  policy:
+    uses: uibcdf/molsyssuite/.github/workflows/check-python-repository.yaml@policy-v1.5.12
+    with:
+      admission_sha: ${{ inputs.admission_sha }}

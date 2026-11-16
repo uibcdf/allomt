@@ -1,0 +1,5 @@
+include AGENTS.md
+include *_GUIDE.md
+recursive-include devguide *.md *.json
+recursive-include devtools *.py *.yaml
+recursive-include .github/workflows *.yml
