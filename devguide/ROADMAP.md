@@ -28,6 +28,12 @@ Maintain [the needs](RESEARCHER_NEEDS.md), [discussion history](DESIGN_DISCUSSIO
 over the planned discussion rounds. Faithfully capture the broad scientific
 vision, clarify concrete contexts and distinguish proposals from agreements.
 
+R02 supplies a [coverage audit](DESIGN_AUDIT.md),
+[established methods/tools](METHODS_AND_TOOLS.md),
+[recent research](RESEARCH_LANDSCAPE.md) and
+[additional proposals](PROPOSED_EXTENSIONS.md). Use them to negotiate scope and
+success criteria; they do not choose a backend, MVP or delivery order.
+
 ### Later first scientific contract
 
 Owner: [AlloMT #2](https://github.com/uibcdf/allomt/issues/2).

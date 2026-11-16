@@ -79,6 +79,58 @@ No scientific algorithms or integrations were implemented during this round.
 - Kept [AlloMT #2](https://github.com/uibcdf/allomt/issues/2) for the later first
   bounded workflow; this elicitation does not mark its contract selected.
 
+## R02 — Coverage audit, methods and research-informed possibilities, 2026-11-15
+
+### Researcher request
+
+Diego asked whether the documents captured every proposal, requested corrections
+and improvements, and asked for possible overlooked objectives/functions informed
+by traditional methods and recent allostery/pharmacological-design research.
+
+### Coverage findings and corrections
+
+[The audit](DESIGN_AUDIT.md) finds all thirteen explicit needs represented.
+It strengthens N07's permissive-license wording to the requested initial selection
+criterion and restores N13's broader improve/worsen meaning. The need to compare
+orthosteric function/structure is preserved without assuming allostery necessarily
+damages the site. Other scientific distinctions are clarified in the audit and
+questions; no new function is counted as implemented.
+
+### Recovered earlier assistant proposals
+
+- I06: Public scientific operations, method implementations and traceable results
+  were previously suggested as conceptual views. They are now explicit; no module
+  tree, API or result schema follows automatically from them.
+- I07: Contrasting hypotheses against computational/experimental references was
+  an earlier proposed objective. It was too implicit and is now explicit in P07.
+
+I06/I07 remain assistant proposals, not confirmed architecture or additional
+researcher-stated requirements. I01–I05 keep their original status.
+
+### Research and new proposals
+
+[Methods/tools](METHODS_AND_TOOLS.md) compares established approaches and
+fourteen repository/license snapshots. [The landscape](RESEARCH_LANDSCAPE.md)
+discusses recent work through 2026-11-15, including peer-reviewed 2026 studies
+and distinctly labeled preprint/software sources. The bibliography records
+29 primary paper/documentation references. This was source inspection and a
+targeted scoping review; no package/model installation or scientific benchmark ran.
+
+[P01–P10](PROPOSED_EXTENSIONS.md) propose cryptic-pocket assessment, richer
+functional profiles, quantitative coupling, mutation/rescue/resistance analysis,
+selectivity/developability, informative experiments, calibrated comparisons,
+dynamic/conditional mechanisms, other interventions and generative workflows.
+All remain proposed. Their discussion order is a recommendation, not agreed
+delivery priority. Scientific relevance, license suitability and runtime
+qualification are kept separate.
+
+### Agreement status and next discussion
+
+The confirmed process G01–G03 continues. No scientific architecture, algorithm,
+backend, public API, model, benchmark or first workflow has been agreed in R02.
+Questions Q01–Q10 are refined; Q11/Q12 capture evaluation and proposal-scope choices.
+Later rounds can accept, revise or reject these possibilities using concrete cases.
+
 ## Continuing the discussion
 
 For each later round, record its date, the researcher's new or corrected

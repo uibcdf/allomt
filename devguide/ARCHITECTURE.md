@@ -69,3 +69,28 @@ The initial interpretations I01–I05 are recorded in
 None is yet an agreed architecture. Subsequent rounds will identify which
 concepts, operations and result meanings are necessary, refine this document,
 and record the rationale for accepted, revised or withdrawn proposals.
+
+## R02 implications to negotiate
+
+[The coverage audit](DESIGN_AUDIT.md), [method review](METHODS_AND_TOOLS.md)
+and [recent research](RESEARCH_LANDSCAPE.md) motivate further questions:
+
+- How to keep pocket geometry/ligandability, functional coupling and an
+  intervention's response profile distinct while composing them in workflows.
+- How to retain method-specific input/output resolution, normalization,
+  reference conditions and uncertainty rather than treating every score as one
+  generic allostery probability.
+- How to distinguish reported knowledge, measured/simulated inputs, independent
+  generated conformers, biased trajectories and learned propagation endpoints.
+- How named optional methods carry source/model/asset rights and actual route
+  qualification; a root permissive license alone does not establish the full route.
+- How mutation, linker, conformation and assembly design use provider operations
+  while AlloMT contributes the declared allosteric objective and its evaluation.
+- How comparisons/benchmarks could support the requested native scientific
+  development and distinguish accuracy, uncertainty, generalization and cost.
+
+The earlier conceptual views of public operations, method implementations and
+traceable results are now explicit as I06. Contrast against computational and
+experimental references is explicit as I07/P07. These remain proposals.
+P01–P10 in [the proposal register](PROPOSED_EXTENSIONS.md) do not create Python
+packages, public classes, dependencies or new cross-component contracts here.

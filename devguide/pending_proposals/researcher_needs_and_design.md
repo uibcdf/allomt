@@ -45,6 +45,15 @@ I01–I05 remain open. Only the discussion process G01–G03 is explicitly confi
 No algorithm, provider, scientific result contract or source layout was selected.
 Verification concerns document/source inspection, not scientific execution.
 
+R02 audits all thirteen needs and earlier assistant proposals, corrects N07/N13
+wording and records interpretations I06/I07, proposed extensions P01–P10 and
+refined/open questions Q01–Q12. The supporting method/tool and recent-research
+review cites 29 primary paper/documentation references and fourteen immutable
+repository/license snapshots. This is a targeted scoping/source review, with
+publication types and limitations explicit. No scientific benchmark, model
+download, third-party installation or runtime qualification was performed.
+No new proposal is recorded as an agreed product objective or method choice.
+
 ## What was refuted
 
 No scientific method or architecture was evaluated and rejected in R01. The

@@ -72,6 +72,20 @@ These inherited obligations remain applicable as the product design evolves:
 These obligations do not choose a universal allostery score, path model, result
 class, method family or workflow architecture.
 
+## R02 coverage review and research-informed proposals
+
+[The design audit](DESIGN_AUDIT.md) confirms coverage of the thirteen stated
+needs and makes earlier assistant proposals and scientific distinctions explicit.
+It also corrects the initial permissive-license wording and the narrower mutation
+heading while preserving the original need identities.
+
+[Established methods/tools](METHODS_AND_TOOLS.md) and
+[recent research](RESEARCH_LANDSCAPE.md) motivate
+[P01–P10](PROPOSED_EXTENSIONS.md). They include possible operational clarifications
+and broader functions; none becomes an agreed objective merely by appearing here.
+The [references](RESEARCH_REFERENCES.md) distinguish primary studies, methods,
+preprints and source/model documentation, with a review cutoff of 2026-11-15.
+
 ## Current implementation boundary
 
 Repository/source receiving remains under

@@ -3,6 +3,8 @@
 **Current phase:** researcher-needs elicitation, with several discussion rounds
 expected. **Source:** Diego's complete thirteen-point statement on 2026-11-15,
 recorded as round R01 in [the discussion history](DESIGN_DISCUSSION.md).
+R02 audits coverage and adds research-informed possibilities in separate documents;
+the thirteen researcher-stated needs retain their identities.
 
 These are researcher-stated goals. They describe the intended scientific product;
 they are not claims of implemented capability, a finalized specification or an
@@ -19,6 +21,9 @@ and predict whether the modulation would be positive or negative.
 This need includes both site discovery and the desired functional prediction.
 The meaning of modulation direction, its reference and the information needed
 to support it are discussion topics [Q02](DESIGN_QUESTIONS.md#q02--functional-reference-and-modulation-direction).
+R02 makes pocket accessibility/ligandability, functional coupling and a particular
+intervention's signed effect explicit as separate assessments in
+[the audit](DESIGN_AUDIT.md).
 
 ## N02 — Characterize a reported mechanism and its communication paths
 
@@ -62,8 +67,9 @@ remain open in [Q07](DESIGN_QUESTIONS.md#q07--third-party-methods-native-researc
 
 ## N07 — Begin with permissive third-party tools and develop stronger native methods
 
-Initially integrate workflows with third-party tools whose licenses permit the
-intended use. The stated licensing preference is permissive licensing. In the
+Initially integrate workflows with third-party tools under permissive licenses
+for the intended use. Permissive licensing is the requested initial selection
+criterion; availability or an open-source label alone does not establish it. In the
 near future, develop our own algorithms to exceed the predictive capability of
 the adopted third-party methods and better fit our scientific needs.
 
@@ -71,6 +77,8 @@ Native scientific development is an explicit ambition, not only adapter work.
 The meaning of improvement, its evidence, timing and migration strategy are
 still to be negotiated. No backend, model, dataset or benchmark has been selected.
 See [Q07](DESIGN_QUESTIONS.md#q07--third-party-methods-native-research-and-ml).
+The [source-level tool review](METHODS_AND_TOOLS.md) distinguishes core licenses,
+bundled notices, models/data and unqualified routes. It selects no integration.
 
 ## N08 — Relate allosteric activity to orthosteric function and structure
 
@@ -80,6 +88,9 @@ comparisons and interpretation in later rounds. The distinctions among local
 orthosteric changes, global stability and the measured activity are discussion
 topics in [Q02](DESIGN_QUESTIONS.md#q02--functional-reference-and-modulation-direction)
 and [Q06](DESIGN_QUESTIONS.md#q06--simulation-experiments-and-their-analysis).
+This preserves the requested loss-of-function/structure comparison; it does not
+define every allosteric mechanism as structural damage. Dynamic/entropic and
+stability-versus-function distinctions are discussed in R02 and proposal P08.
 
 ## N09 — Help design bifunctional ortho-allo molecules
 
@@ -115,12 +126,15 @@ nonprotein molecules such as DNA or RNA. The intended regions, interventions,
 assembly states and association measurements need clarification in
 [Q09](DESIGN_QUESTIONS.md#q09--assembly-modulation-and-mutation-design).
 
-## N13 — Predict mutations that strengthen or weaken known allostery
+## N13 — Predict mutations that improve or worsen a known allosteric mechanism
 
 Predict mutations that improve or worsen a known allosteric mechanism. The
 baseline mechanism and the meaning of improvement/worsening are part of the
 scientific question. Mutation scope and evaluation are open in
 [Q09](DESIGN_QUESTIONS.md#q09--assembly-modulation-and-mutation-design).
+Improvement has not been defined as increasing a coupling-score magnitude.
+The revised heading preserves the researcher's broader wording; potential
+epistasis, rescue and resistance functions are separate proposals in P04.
 
 ## Current coverage and next rounds
 
@@ -133,3 +147,8 @@ Update this inventory as the researcher clarifies the needs. Retain stable IDs,
 record significant changes and their reasons in [the discussion history](DESIGN_DISCUSSION.md),
 and distinguish a revised need from an assistant's proposed implementation.
 The design discussion is tracked in [AlloMT #3](https://github.com/uibcdf/allomt/issues/3).
+
+The R02 [coverage audit](DESIGN_AUDIT.md) traces all thirteen needs and earlier
+assistant proposals. [P01–P10](PROPOSED_EXTENSIONS.md) are additional possibilities
+to negotiate, not newly accepted needs. [Methods/tools](METHODS_AND_TOOLS.md)
+and [recent research](RESEARCH_LANDSCAPE.md) provide their evidence and limits.
