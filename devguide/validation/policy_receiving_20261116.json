@@ -1,0 +1,166 @@
+{
+  "schema": "allomt.policy-receiving@1",
+  "issue": "uibcdf/allomt#1",
+  "observed_at_utc": "2026-11-17T00:39:02.316361+00:00",
+  "source_parent": "30e6971f9f2ed8b83aa2e6e0d96a82aef17b21d4",
+  "central_admission": "adaef199b74c6da72ca43c21401c245990c70727",
+  "policy": {
+    "release": "policy-v1.6.0",
+    "tag_object": "4d20cfc2e6d2aff783561410f23f69d660bca92e",
+    "peeled_source": "698fbdfd4b0a53b6b7cc49815e1102cd9c117749",
+    "latest_publication": "official CLI verifies current authoritative target before generation; actual adoption inventory independently reports CURRENT",
+    "admission_input": "not needed: AlloMT is already present in frozen1.6.0; genuine historical admission retained for provenance"
+  },
+  "generation": {
+    "command": "frozen policy source devtools/scripts/bootstrap_component.py <empty-stage> --repository uibcdf/allomt --description <existing-description>",
+    "state": "pass",
+    "generated_source_files": {
+      "LICENSE": "89774af33c83f6ac673838d2621666d25f65b18f6d15fd67a04004901bd90b01",
+      "MOLSYSSUITE_GUIDE.md": "02737e0099e17f94e610334f944fce595c2ab23f0c415c01418726e6d7ee3d82",
+      ".gitignore": "723afa6ae156da80407b6cca00de41b5039e5bbb9298f32c898b5e86c7eaf339",
+      "AGENTS.md": "4b1f0d1d4c59cf582d47942b80ac7a6ad673cee73f48c4de446f2b5eb1931de0",
+      "README.md": "5a5fabc552449593ff4686d34b940a4f6f1c3941f0e42b084275bfc2f6d52051",
+      "pyproject.toml": "e4b4b72564bf4fbabad668ff5f811e5c80afe2febed22b364405714f22590ef1",
+      "devguide/AGENTS.md": "6b02edfa0584e193879eb0ce2f17bc2cddb5c1e2c6045c2dc0cc12220f6499cd",
+      "devguide/discussions.md": "1477ab7e11b2cdab728001b6365e6b7e7768a266871223d668afc221b5acf945",
+      "devguide/frontend_dom_review.md": "5878977cc8c0b98150c3555feb746db8d34c3ba83c1e3df3b81d7b15289dc3dc",
+      "devguide/optional_engine_review.md": "2d5187dcab6c33a8fef8956514da97203ae78b901634233ce316deeb3968bcf8",
+      "devguide/release_titles.md": "63c28bb6c16f5da22c0c60474b792e6f09a5659e0d82db5ff50e64c8898b1ce6",
+      "devguide/reporting_protocol.md": "c4f237486e349f5c9cd8e0bb6d49515241ff792978fdd613f30b17b466d14b20",
+      "devtools/devguide_index.py": "85c00d4dc3afbff09f8adf8f96fb80d20c30354a83f6bed337be8c2ba0834e5e",
+      "devtools/devguide_reports.py": "1864f43abb1a760f2385b1ff35009446ca74a84d0d92bda65df731a4cdd42114",
+      "tests/test_import.py": "c0f702c3b05c7510590c1b4e761874add7ad5970862b51d95d923197e51205bb",
+      "tests/test_reporting_protocol.py": "fec2c7048d08f3d2a068b880c5c24fd5a7b0c5fcb0be0c07dc3e143549d54ad9",
+      "src/allomt/__init__.py": "36241c4a3cb5ec3d42eda3eca3a0123bc58cb05442c4f22047776232211cfac0",
+      "devtools/conda-envs/development_env.yaml": "3bfcef53110c34141958d51b186e2481c9b30527b3bff43a53f58e8cfda7d723",
+      "devtools/conda-envs/test_env.yaml": "2da76789b720d420ead6bde942df3aaafad74b9bb59490acae3f1b65aadec224",
+      "devguide/archive/README.md": "852e3046dbc86c9f286d6ed1040b7023d788cee0195fc2c0fe51fc50866fcfda",
+      "devguide/pending_bugs/README.md": "3c87f3c4b276434e4cc1a0ad22f0034672639a3119813666bd79d9b722fd74ac",
+      "devguide/pending_proposals/README.md": "3ffbe4727666950299c59e58d93ad4a6e4681f6f728c54d86001d09ce87c5435",
+      "devguide/templates/report.md": "1698a3e540de5b74c034dce782ade1d88b76cfa6cffd5f4a753b94f80c269041",
+      ".github/workflows/ci.yml": "4c81925c988904270d1b1e0410bd94c4b7bec6593a28e1062ab922642fffae6a",
+      ".github/workflows/molsyssuite-policy.yml": "75ea465a44626842a9decd1d2ef9b190e5302a6984737f5f0bf657eab67f4a58"
+    },
+    "integrated": [
+      "official generated policy caller with only trailing blank line normalized",
+      "four exact official identity badges"
+    ],
+    "preserved": "existing source history, package/tests, scientific/design/Discussions records and original guide provenance; no starter overwrite",
+    "workflow_normalization": {
+      "change": "trim one extra blank line at EOF; no YAML or caller change",
+      "generated_sha256": "75ea465a44626842a9decd1d2ef9b190e5302a6984737f5f0bf657eab67f4a58",
+      "integrated_sha256": "a4b0263dd8cb7b1e4ea947cec4209ceed44abbf0a45b0cbe1c9c5c22098a0112"
+    }
+  },
+  "before": {
+    "findings": [
+      "IDENTITY_BADGE",
+      "POLICY_BADGE",
+      "PYTHON_BADGE",
+      "LICENSE_BADGE",
+      "LATEST_POLICY"
+    ],
+    "exit": 1
+  },
+  "after": {
+    "conformance": "frozen1.6.0 checker --skip-guide-content: pass",
+    "adoption": {
+      "schema": "molsyssuite.policy-adoption-observation@1",
+      "observed_at_utc": "2026-11-17T00:40:10.511642+00:00",
+      "target": "policy-v1.6.0",
+      "published_target": {
+        "release": "policy-v1.6.0",
+        "tag_sha": "4d20cfc2e6d2aff783561410f23f69d660bca92e",
+        "commit": "698fbdfd4b0a53b6b7cc49815e1102cd9c117749"
+      },
+      "records": [
+        {
+          "kind": "policy",
+          "repository": "uibcdf/allomt",
+          "item": "policy-caller",
+          "state": "current",
+          "owner": "uibcdf/allomt",
+          "expected": "policy-v1.6.0",
+          "observed": "policy-v1.6.0",
+          "source_revision": "policy-v1.6.0",
+          "consumer_revision": "policy-v1.6.0",
+          "exception": "",
+          "next_action": "none"
+        }
+      ],
+      "sources": [
+        {
+          "repository": "uibcdf/allomt",
+          "source_commit": "30e6971f9f2ed8b83aa2e6e0d96a82aef17b21d4",
+          "workflow_sha256": {
+            ".github/workflows/ci.yml": "58977d2ddcea2f008ce622196293f003dc119b8e79cf75b96787385d32be48ae",
+            ".github/workflows/molsyssuite-policy.yml": "a4b0263dd8cb7b1e4ea947cec4209ceed44abbf0a45b0cbe1c9c5c22098a0112"
+          }
+        }
+      ],
+      "scope": "selected source declarations only; no executed gate, semantic compliance or scientific/public qualification inferred"
+    },
+    "guides": "official registered synchronizer with live published canonical owners: all8 current; no guide edits",
+    "guide_sha256": {
+      "SMONITOR_GUIDE.md": "f7e94a70c4f4344f018925587a4dc5f481822ce312c791300927e62dd794576b",
+      "PYUNITWIZARD_GUIDE.md": "2bebdab26b9f5ac70bafd35bc48522e1a07535953e2a1b8939e0a3feb6d5b860",
+      "PYTEST_RECEPTOR_GUIDE.md": "0ef80eac29d785d7431cac942d44eeadc81bf85ce2d9cfe89021c8970e2242f2",
+      "MOLSYSSUITE_GUIDE.md": "02737e0099e17f94e610334f944fce595c2ab23f0c415c01418726e6d7ee3d82",
+      "GH_RUN_RECEPTOR_GUIDE.md": "38cd0b08b8739196df5db0aecd8fd4ec1e8cec2d59f194b10c55a7847330c740",
+      "DEPDIGEST_GUIDE.md": "fa2d1af5dc9a7bc5e583fce0920ef988b08edff884e709b1629a977e4230624c",
+      "ARGDIGEST_GUIDE.md": "1bb69c596cabd5d504416534ea952bea5fc7f23e74dea118cee47a4d196b965c",
+      "ACKREDIT_GUIDE.md": "b7206aa1d8627a53f57f816cf99359f31de203b1d49fe9195785695ce8411464"
+    },
+    "source_checks": {
+      "test_runs": {
+        "generated_stage": {
+          "passed": 2,
+          "junit_sha256": "a25eead74f171c674c251df844b47f6e70dbf2bdb4a320bf7b9bba9656550c67",
+          "scope": "existing import and offline reporting lifecycle tests only; separate executed source populations"
+        },
+        "owner_source": {
+          "passed": 2,
+          "junit_sha256": "3d75bd982495cafb31d3267fcba5749631fb227678142c54e2b5f70bd51dfde7",
+          "scope": "existing import and offline reporting lifecycle tests only; separate executed source populations"
+        }
+      },
+      "ruff_lint": "pass, unchanged Python files",
+      "ruff_format": "pass,37 files",
+      "report_indexes": "regenerated and checked",
+      "git_diff_check": "pass after documented generated-workflow EOF normalization"
+    }
+  },
+  "resource_profile": {
+    "scope": "bounded administrative generator/checker/report and two-test source profile only",
+    "budget": {
+      "material_jobs": 1,
+      "native_threads": 1,
+      "ram_estimate_mib": 1024,
+      "scratch_mib": 128,
+      "wall_seconds_per_job": 240
+    },
+    "execution": "serial material jobs, native threads1, finite wall bounds; no shared prefix installation",
+    "protection": "direct observations and owned process limits only, no reservation/aggregate containment proof",
+    "defer": "larger scientific/solver/browser/native workloads need fresh input estimates and actual active site policy/admission/protection; not qualified here"
+  },
+  "tooling": {
+    "pytest_receptor": {
+      "version": "1.2.3",
+      "sha256": "8e1b7d603e21838ab6a310a99f11507fdda8c7c7b6481ac6b79a56010b06c916"
+    },
+    "gh_run_receptor": {
+      "version": "1.5.0",
+      "sha256": "d2684bde9ff51c5c9b12a5f79f2beab5288c69af984ce1d92c0ced39bc4246ca"
+    },
+    "scope": "published exact archives in task-only overlay; no shared-prefix installation"
+  },
+  "limits": [
+    "not shared-workspace receiving, scientific implementation or a public package/release",
+    "historical original wheel and compatibility matrices retain original source identity",
+    "repository protection and Discussions UI/form work are not configured by this change",
+    "post-publication exact-source source/policy runs are received in owning #1 and central#202/#201; no manual workflow dispatch selected"
+  ],
+  "local_attempts": [
+    "Initial git diff --check rejected the official generated workflow extra blank line at EOF; normalized whitespace before commit."
+  ]
+}

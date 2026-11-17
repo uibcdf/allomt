@@ -4,7 +4,7 @@ issue: uibcdf/allomt#1
 status: partial
 opened: 2026-11-15
 closed:
-verification: inspected
+verification: measured
 area: [bootstrap, governance]
 guard:
 normative:
@@ -57,8 +57,8 @@ package, license and reporting/devguide inputs. These were unreleased local
 development artifacts, not a public package or release candidate.
 
 The original central repository checker exited 1 with `[UNREGISTERED]` against
-the then-published source. Formal generation and policy enforcement remain outstanding;
-local source checks do not clear them. Hosted results after publication are
+the then-published source. That original failure remains historical; the executed post-admission generator
+and current caller integration below now supersede the missing-generation state. Hosted results after publication are
 maintained in the owning issue rather than inferred from configured workflows.
 
 ### R03 independent admission observation
@@ -96,3 +96,25 @@ source/inputs remain applicable; remove it after receiving or when no longer use
 - Central registration: uibcdf/molsyssuite#202.
 - Latest-policy adoption: uibcdf/molsyssuite#201.
 - First scientific contract: uibcdf/allomt#2.
+
+## Official member receiving — 2026-11-16
+
+The real published frozen policy-v1.6.0 generator succeeds in an empty stage;
+AlloMT is already registered in that immutable snapshot. Its exact automatic
+push/PR/manual caller and four generated identity badges are integrated into
+the existing source, preserving package/tests, scientific design and Discussions
+work. All five before findings become zero in the frozen checker, and the live
+latest-policy observation reports CURRENT. All eight canonical guides pass the
+registered official check without edits. Two generated-stage tests pass.
+
+[Exact source/input/tooling and local receiving](../validation/policy_receiving_20261116.json)
+keeps original pre-admission failures and R03 observations historical. Relevant
+source/report/Ruff checks are completed before the owner commit; exact published
+source and automatic native jobs are received through AlloMT #1 and central #202.
+No scientific campaign, package/release, shared install or manual CI is selected.
+
+Keep this owner report partial for separately tracked protection/workspace and
+applicable future scientific/coverage/installed/public receiving; the central
+registration and actual official foundation integration can be received in #202
+without waiting for an allostery method. Original retained qualification assets
+remain with their owner; this task operates only its marked isolated scratch.

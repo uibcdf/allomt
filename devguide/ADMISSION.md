@@ -4,9 +4,11 @@ AlloMT is registered as a primary, active, incubating scientific Python componen
 Central admission and eight guide-consumer relationships were published in
 [`adaef199b74c6da72ca43c21401c245990c70727`](https://github.com/uibcdf/molsyssuite/commit/adaef199b74c6da72ca43c21401c245990c70727)
 under [MolSysSuite #202](https://github.com/uibcdf/molsyssuite/issues/202).
-R03 independently verified that commit and the current registry. Official staged
-generation, automatic member-policy receiving and other outstanding gates remain
-under [AlloMT #1](https://github.com/uibcdf/allomt/issues/1).
+R03 independently verified that commit and the current registry. The official post-admission
+generator now succeeds with published `policy-v1.6.0`; its exact automatic caller
+and identity badges are integrated without replacing the existing source.
+[AlloMT #1](https://github.com/uibcdf/allomt/issues/1) retains executed receiving
+and the separately pending owner-local gates.
 
 The earlier source-candidate observations below retain their original scope.
 They must not be read as a current claim that registration is absent.
@@ -43,9 +45,11 @@ The original Git history and owner-authored scope documents are retained.
 - All canonical guide paths excluded explicitly from local Ruff ownership.
 - Full source reporting/import tests; routine Linux Python 3.14 CI and
   scheduled/manual Linux 3.11–3.14 lanes, following the starter.
-- The frozen policy caller is manual and requires a real published
-  `admission_sha`. Automatic member-policy enforcement must be activated after
-  official post-admission receiving. Ordinary source CI does not replace this gate.
+- The original frozen caller was manual. The current exact generated caller
+  uses `policy-v1.6.0` on push/PR/manual events. AlloMT is registered in that
+  frozen snapshot, so a dispatch-time admission input is unnecessary. The
+  genuine original central admission is retained above; ordinary source CI
+  remains distinct from actual member-policy execution.
 
 ## Current guide and policy observations in R03
 
@@ -61,6 +65,30 @@ names `policy-v1.6.0` as current. AlloMT's manual caller still references
 `policy-v1.5.12`; source compatibility is not current adoption. Latest-policy
 receiving is outstanding in AlloMT #1 and the central rollout #201. This design
 and Discussions increment does not claim that missing policy enforcement passed.
+
+## Official post-admission receiving — 2026-11-16
+
+The real generator from published policy source
+`698fbdfd4b0a53b6b7cc49815e1102cd9c117749` succeeds in an empty task-owned
+stage after independently verifying the latest published target. Annotated
+policy-v1.6.0 object `4d20cfc2e6d2aff783561410f23f69d660bca92e` retains that
+peeled source. Its registry already includes AlloMT. No artificial admission
+input, policy tag movement or new release is needed.
+
+Reviewing the existing source against that stage preserves all scientific/design
+records, package/tests and original provenance. Only the exact generated automatic
+policy caller and four official identity badges are integrated. Five measured
+conformance findings (four missing badges and old policy) become zero; the
+independent latest-policy observation reports CURRENT. The registered official
+synchronizer verifies all eight live canonical copies without edits.
+
+The [source/input receipt](validation/policy_receiving_20261116.json) retains the
+executed stage, rendered-file hashes, exact changes, bounded administrative
+resource profile and published receptor identities. Two generated-stage tests
+pass; final source/import/report checks remain distinct from post-publication
+native gate receiving recorded in AlloMT #1. The compatibility target and routine
+Python3.14 fixture are preserved; identity badges follow the actual frozen
+registry rather than claiming a new public platform/Python admission.
 
 ## Receiving and qualification
 
@@ -79,18 +107,13 @@ is supplied by this import/reporting scaffold.
 
 ## Remaining member receiving route
 
-Central registration is published; preserve its genuine identity above and keep
-ecosystem/CI/distribution evidence states accurate. Receive the current official
-starter/policy through its supported route in an empty stage and review integration
-against the existing source. Retain the applicable immutable policy/admission
-inputs and actual generation/checker evidence; do not infer it from registration.
-
-Restore the current starter's automatic push/PR policy triggers with its applicable
-immutable inputs, verify the real shared gate and live guide synchronization,
-and record the applicable hosted compatibility and workspace receiving.
-Branch protection still needs repository-side receiving. Discussions activation,
-categories and the catalog are observed in [the upkeep guide](discussions.md);
-remaining UI/form evidence is owned by AlloMT #4. Generated files alone establish
-neither protection nor rendered category/form settings.
-Keep source and scientific follow-up in AlloMT #1 and
-[AlloMT #2](https://github.com/uibcdf/allomt/issues/2).
+Central registration and the real current official generated caller are received.
+Post-publication exact-source source/policy jobs retain their own native evidence
+in AlloMT #1 and central #202/#201; configured events alone establish no execution.
+The historical complete compatibility run remains tied to its original source.
+Shared-workspace receiving and repository protection need owner-local evidence.
+Discussions API/category/catalog observations remain in [the upkeep guide](discussions.md),
+with UI/form receiving owned by AlloMT #4. Coverage applicability is reassessed
+with the first scientific implementation; no percentage or predictor is claimed.
+Keep those distinct scopes under AlloMT #1/#2/#4 without treating this admission
+integration as a scientific, installed/public or whole-workspace qualification.

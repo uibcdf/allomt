@@ -11,7 +11,7 @@ Open proposals following [`reporting_protocol.md`](../reporting_protocol.md).
 
 ### Partial (1)
 
-- [`component_bootstrap.md`](component_bootstrap.md) — [#1](https://github.com/uibcdf/allomt/issues/1) — Establish the AlloMT source foundation and complete central member receiving. *(partial, inspected)*
+- [`component_bootstrap.md`](component_bootstrap.md) — [#1](https://github.com/uibcdf/allomt/issues/1) — Establish the AlloMT source foundation and complete central member receiving. *(partial, measured)*
 
 ### Open (1)
 
